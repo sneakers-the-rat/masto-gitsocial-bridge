@@ -1,0 +1,10 @@
+#!/bin/bash
+# Assuming we have installed the package using poetry from a git repository
+# lmao I did not say we handled virtual environments well in this package
+
+cd <path/to/masto-gitsocial-bridge>
+poetry run post_last_commit
+
+# otherwise activate whatever venv you have installed the package in and
+# call masto_git_bridge.main:post_last_commit, which is
+# installed as an entrypoint script by poetry
