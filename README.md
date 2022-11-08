@@ -2,6 +2,8 @@
 
 bridge between mastodon and bcrypt's [git-social](https://github.com/diracdeltas/tweets)
 
+Mirrored to https://github.com/sneakers-the-rat/masto-gitsocial-bridge if for some godforsaken reason you want to raise issues or pull requests or fork it or whatever
+
 ## From git to masto
 
 Post on git-social...
