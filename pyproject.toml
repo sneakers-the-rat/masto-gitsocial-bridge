@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "masto-gitsocial-bridge"
+version = "0.1.0"
+description = "Crosspost between mastodon and git.social"
+authors = ["sneakers-the-rat <JLSaunders987@gmail.com>"]
+license = "AGPL-3.0"
+readme = "README.md"
+packages = [{include = "masto_git_bridge"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+"Mastodon.py" = "^1.5.2"
+pydantic = {extras = ["dotenv", "email"], version = "^1.10.2"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
